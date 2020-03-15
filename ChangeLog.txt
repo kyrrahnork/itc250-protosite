@@ -1,0 +1,71 @@
+ChangeLog for nmWDK (Web Development Kit) Files Protosite Package: 2018-01-19  Bill Newman  <williamnewman@gmail.com>
+
+This is an informal changelog, a summary of changes in each version and between.
+Changes are categorized as Change, Fix, Sec (Security Issue) or Feature.
+
+
+Version 2.4 (2018-01-18)
+[Change] Moved to a repo on Github
+[Change] Removed outdated and unnecessary files
+[Feature] Added font awesome icons to Pager list example
+
+(2016-02-04)
+[Fix] Removed mysql classic connections from admin files
+
+(2015-07-06)
+[Fix] Moved safeEmail() to common_inc.php
+[Fix] Removed mysql_ extension example, changed admin_validate.php to PDO
+[Feature] Added required_params() function to require POST params on submission
+[Feature] NameSpace support added and __autoload() removed in favor of MyAutoLoader class
+
+(2015-01-15)
+[Fix] Added safeEmail() to custom, fixed login references in admin_dashboard.php
+[Change] Removed specific quarter references, must be changed from srv_
+[Change] Removed most themes to be stored in a separate zip file
+
+Version 2.3(2014-01-14)
+[Fix] Updated for Winter 2014 quarter, changed to wn14
+[Feature] Added PDO support for more advanced data 
+[Change] Removed conn_inc.php and placed functions into common_inc.php
+[Change] Added credentials.php to store credentials (instead of removed conn_inc.php) ala WP as constants
+
+(2013-09-24)
+[Fix] Updated for Fall 2013 quarter, sm13 changed to fl13
+[Change] Added DarkStyles & Swirls themes
+[Change] Removed reference to nmEdit in admin
+
+Version 2.221(2013-06-24)
+[Fix] Updated for Summer 2013 quarter, sp13 changed to sm13
+
+The current installation instructions: 
+https://docs.google.com/document/d/1bm__2du2pBjqruXYw39PMbWZJRN92Fthu53XWe40qd4/edit
+
+Version 2.22(2013-05-28)
+[Change] Compared common_inc.php, config_inc.php and themes to keep nmWDK (ITC290) & nmCommon consistent, hence version change
+[Fix] Fixed benchmark issue in config_inc.php - was not showing as was being overwritten by config if loaded
+[Change] removed extension2fileType() and checkFileType() - these will be added to new version of upload files
+[Fix] Had errors in common_inc.php related to RTE - merged with version 2.21 in RTE package
+[Sec] demo_contact.php fixed to address Domain Name Spoofing & Email Injection.  Version update 2/2/2013 (object #1334)
+[Fix] Title tag is no longer available in config file as should be unique
+[Fix] Form in demo_contact.php updated - removed table, styles
+
+Version 1.0 (2013-04-15)
+[Change] Changelog of package began.  Prior versions had no changelog
+[Change] Fall 2012 version of files merged with changes made to nmCommon, primarily in the upload files
+[Fix] Dates changed to sp13 from fl12 in DB tables 
+
+To Do:
+
+admin_validate_pdo.php added 2/4/2016, will need to replace current version of 
+admin_validate.php, but not in play at this time.
+
+Write and include version specific instructions, instead of link to google doc
+
+Needs vast cleanup, removal of extra docblocks (leave one sample only) 
+
+Unify to a single version, merging Pager, etc. into kit
+
+Update reCaptcha in contact, move credentials to config, add SMTP email support
+
+Cleanup config, hide complexity
+

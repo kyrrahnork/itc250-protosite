@@ -1,0 +1,9 @@
+[Mar-14-2020 16:17:54] Unknown column 'Title' in 'field list' in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/demo/attr_domain_example.php on line 76
+[Mar-14-2020 16:45:59] Unknown column 'Title' in 'field list' in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/demo/attr_domain_example.php on line 76
+[Mar-14-2020 16:55:04] Unknown column 'Value' in 'field list' in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/inc_0700/custom_inc.php on line 45
+[Mar-14-2020 16:56:02] Unknown column 'Value' in 'field list' in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/inc_0700/custom_inc.php on line 45
+[Mar-14-2020 16:56:06] Column 'Title' in field list is ambiguous in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/demo/attr_domain_example.php on line 76
+[Mar-14-2020 16:56:12] Column 'Title' in field list is ambiguous in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/demo/attr_domain_example.php on line 76
+[Mar-14-2020 16:56:44] Column 'Title' in field list is ambiguous in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/demo/attr_domain_example.php on line 76
+[Mar-14-2020 16:56:48] Column 'Title' in field list is ambiguous in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/demo/attr_domain_example.php on line 76
+[Mar-14-2020 16:59:06] Unknown column 'Value' in 'field list' in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/inc_0700/custom_inc.php on line 45

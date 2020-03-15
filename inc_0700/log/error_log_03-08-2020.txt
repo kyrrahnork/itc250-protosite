@@ -1,0 +1,1 @@
+[Mar-08-2020 14:56:00] Table 'seattle_central.sp19_responses' doesn't exist in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/inc_0700/Pager_inc.php on line 140

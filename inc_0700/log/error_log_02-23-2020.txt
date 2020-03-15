@@ -1,0 +1,6 @@
+[Feb-23-2020 13:29:03] Undefined variable: myReturn in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Survey.php on line 127
+[Feb-23-2020 13:41:46] Undefined variable: myReturn in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Survey.php on line 128
+[Feb-23-2020 14:37:49] A non-numeric value encountered in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Survey.php on line 134
+[Feb-23-2020 14:37:49] A non-numeric value encountered in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Survey.php on line 134
+[Feb-23-2020 14:37:49] A non-numeric value encountered in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Survey.php on line 134
+[Feb-23-2020 14:37:49] A non-numeric value encountered in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Survey.php on line 134

@@ -1,0 +1,194 @@
+/* --------------------------------------------------
+CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
+-------------------------------------------------- */
+
+/* CONTAINER */
+
+		#container {
+			width: 100%;
+			margin: 0 auto;
+			font-family: Lucida Grande, Tahoma, Arial, Helvetica, sans-serif; /* Lucida Grande for the Macs, Tahoma for the PCs */
+			font-size: 12px;
+			line-height: 1.6em;
+			color: #333;
+			background-color: #FFF;
+		}
+		
+/* GENERAL MOJO AND MULA */
+		
+		h1 {
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: normal;
+			font-size: 32px;
+			color: #0084CF;
+			margin-bottom: 30px;
+			background-color: #FFF;
+		}
+		
+		h2 {
+			color: #000055;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+		}
+		
+		a {
+			color:#000055;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color:#0084CF;
+			background-color: #F5F5F5;
+		}
+		
+		
+		input {margin:2px; color:#000055;}
+
+		form.seek {
+			float:right;
+			margin-top: -45px;
+			font-size: 9px;
+		}
+		
+		form.seek input {
+			background-color: #FFF;
+			color: #333;
+			border: 1px solid #CCC;
+			font-size: 11px;
+			padding: 3px;
+		}
+		
+		form.seek input.button {
+			padding: 2px;
+		}
+		
+	     form.seek input.error {
+			color: #F03;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+		}
+		
+		.instructions {color:#003366;}
+		
+/* HEADER ELEMENTS */
+
+		#header {
+			border-bottom: 3px solid #948979;
+			padding-top: 10px;
+			clear: both;
+			margin-bottom: 10px;
+		}
+		
+
+		/* the slogan */
+		#header p { 
+			margin-top: -20px;
+			margin-left: 30px;
+			color: #999999;
+		}
+/* HORIZONTAL NAVIGATION ELEMENTS */
+		#mainNav {
+          background-color:#144BA3;
+		  margin:0;
+	      width: 100%;
+          }
+		 #mainNav td {	
+						text-align:center; 
+						padding:0; 
+				 	}
+		 td.mainNav1 a{display:block;}
+		 td.mainNav1 a:link{color:#FFFAD5; text-decoration:none;}
+		 td.mainNav1 a:visited{color:#FFFAD5; text-decoration:none;}
+		 td.mainNav1 a:hover{color:#fff; text-decoration:none; background-color:#000055;}	
+
+/* LEFT NAVIGATION ELEMENTS */
+	
+		 #navigation ul {
+			margin-left: 0;
+			padding-left: 0;
+			list-style-type: none;			
+			float: left;
+			width: 160px;
+		}
+
+		#navigation a {
+			display: block;
+			padding: 5px;
+			width: 160px;
+			border-bottom: 1px solid #CCC;
+		}
+
+		#navigation a:link, .navlist a:visited {
+			color:#000055;
+			text-decoration: none;
+		}
+		
+		#navigation a:hover {
+			background: #000000 url(../images/arrow.gif) 96% 50% no-repeat;
+			background-color: #F5F5F5;
+			color:#0084CF;
+		}
+
+/* THE SMALL BOX BELOW NAV */
+
+		.navigation p {
+			margin-top: 40px;
+			padding: 5px;
+			border-bottom: 1px dotted #CCC;
+			border-top: 1px dotted #CCC;
+		}
+		
+/* CONTENT ELEMENTS */
+
+		#content {
+			margin-left: 180px;
+			margin-right: 200px;
+		}
+		
+		#content p {
+			padding-bottom: 10px;
+		}
+		
+		#content form {
+			margin-top: 10px;
+		}
+
+/* SIDEBAR ELEMENTS */
+
+		#sidebar {
+			float: right;
+			width: 175px;
+		}
+		
+		#sidebar p {
+			padding-bottom: 10px;
+			border-bottom: 1px solid #DDDDDD;
+		}
+
+/* FOOTER ELEMENTS */
+
+		#footer {
+			margin-top: 20px;
+			clear: both;
+			background-color:#575352;
+			padding: 0px 5px 0px 5px;
+		}
+		
+		#footer p {
+			color:#89817f;
+			padding: 5px;
+		}
+		
+		#footer p a {
+			color: #89817f;
+			border-bottom: 1px dotted #89817f;
+		}
+		
+		#footer p a:hover {
+			color: #FFFFFF;
+			background-color:#575352;
+		}
+		
+

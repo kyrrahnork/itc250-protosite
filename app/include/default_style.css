@@ -1,0 +1,56 @@
+/**
+ * styles.css site wide stylesheet
+ *
+ * Adds styles for horizontal nav in INC file, hNavINC.php 
+ *
+ * if you're using a table apply your font-size to a <td> element - 
+ * trying not to nest tables ... if you're not using <table>s, 
+ * apply your font-size to the <body> element 
+ *
+ * @package ITC80
+ * @author Bill Newman <williamnewman@gmail.com>
+ * @version 1.0 2008/07/09
+ * @link http://www.newmanix.com/itc280/  
+ * @license https://www.apache.org/licenses/LICENSE-2.0
+ * @see headerINC.php
+ * @see footerINC.php 
+ * @todo none
+ */
+
+/*
+  Background color of body, #52F3FF, matches header and footer currently
+  You'll likely want to change this, to match colors there.
+*/
+ 
+body {font-size: .9em; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; padding:0; margin:0; background-color:#FFFFFF;}
+
+td {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+.small {font-size: 76%;}
+.big {font-size: 120%;}
+
+a {font-family:Verdana, Arial, Helvetica, sans-serif;}
+a:link {color: #00f;}
+a:visited {color: #36f;}
+a:hover {text-decoration: none;}
+a:active {color: #f00;}
+
+/*
+  Styles below added for horizontal nav, hNavINC.php
+*/
+#mainNav {
+          background-color:#144BA3;
+		  margin:0;
+	      width: 100%;
+          }
+ #mainNav td {	
+ 				color:#FFFAD5; 
+				text-align:center; 
+				padding:0; 
+				border-top: 1px solid black; 
+				border-bottom: 1px solid black;
+			}
+ td.mainNav1 a{display:block; border-left:1px solid black;}
+ td.mainNav1 a:link{color:#FFFAD5; text-decoration:none;}
+ td.mainNav1 a:visited{color:#FFFAD5; text-decoration:none;}
+ td.mainNav1 a:hover{color:#fff; text-decoration:none; background-color:#000000;}

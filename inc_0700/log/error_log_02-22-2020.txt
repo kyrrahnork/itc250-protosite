@@ -1,0 +1,4 @@
+[Feb-22-2020 9:50:16] Undefined variable: DateAdded in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/survey_view.php on line 97
+[Feb-22-2020 10:53:49] Undefined index: QuestionID in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/survey_view.php on line 115
+[Feb-22-2020 10:53:49] Undefined index: QuestionID in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/survey_view.php on line 115
+[Feb-22-2020 10:53:49] Undefined index: QuestionID in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/survey_view.php on line 115

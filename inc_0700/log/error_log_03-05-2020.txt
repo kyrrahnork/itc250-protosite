@@ -1,0 +1,2 @@
+[Mar-05-2020 16:59:37] Undefined index: Privilege in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/inc_0700/config_inc.php on line 89
+[Mar-05-2020 16:59:37] Undefined index: FirstName in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/inc_0700/config_inc.php on line 89

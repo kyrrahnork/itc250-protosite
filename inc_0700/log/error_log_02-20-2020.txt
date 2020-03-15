@@ -1,0 +1,2 @@
+[Feb-20-2020 16:26:58] Undefined variable: Title in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/survey_view.php on line 66
+[Feb-20-2020 16:28:26] Undefined variable: Title in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/survey_view.php on line 66

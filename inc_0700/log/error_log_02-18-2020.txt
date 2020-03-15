@@ -1,0 +1,2 @@
+[Feb-18-2020 16:41:12] Undefined index: Admin in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/index.php on line 94
+[Feb-18-2020 16:41:18] Undefined index: Admin in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/index.php on line 94

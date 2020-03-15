@@ -1,0 +1,2 @@
+[Jan-08-2020 15:17:44] mysqli_connect(): (HY000/1044): Access denied for user 'kyrnor'@'67.205.0.0/255.255.192.0' to database 'winter2020_' in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/inc_0700/common_inc.php on line 1271
+[Jan-08-2020 15:17:44] Access denied for user 'kyrnor'@'67.205.0.0/255.255.192.0' to database 'winter2020_' in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/inc_0700/common_inc.php on line 1271

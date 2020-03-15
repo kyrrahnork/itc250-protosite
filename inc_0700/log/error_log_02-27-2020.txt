@@ -1,0 +1,3 @@
+[Feb-27-2020 16:32:44] Undefined variable: myResult in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Question.php on line 38
+[Feb-27-2020 16:32:44] Undefined variable: myResult in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Question.php on line 38
+[Feb-27-2020 16:32:44] Undefined variable: myResult in /home/kyrnor/kyrrahnork.com/itc250-dev-wn20/itc250-wn20/surveys/SurveySez/Question.php on line 38
