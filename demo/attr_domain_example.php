@@ -103,7 +103,7 @@ on cu.CountryID = co.CountryID
 		}
 		echo '<input type="hidden" name="act" value="edit" />';
 		echo '<tr>
-				<td align="center" colspan="5">
+				<td align="center" colspan="6">
 					<input type="submit" value="Choose Customer!"></em>
 				</td>
 			  </tr>
@@ -149,7 +149,7 @@ function editDisplay()
       feedback("No such customer. (error code #" . createErrorCode(THIS_PAGE,__LINE__) . ")","error");
 	  myRedirect(THIS_PAGE);
 	}
-	
+
 	$config->loadhead .= '
 	<script type="text/javascript" src="' . VIRTUAL_PATH . 'include/util.js"></script>
 	<script type="text/javascript">
@@ -268,8 +268,6 @@ function updateExecute()
      ; 
     # sprintf() allows us to filter (parameterize) form data 
 	$sql = sprintf($sql,$FirstName,$LastName,$Title,$Email,(int)$CountryID,(int)$CustomerID);
-
-	//dumpDie($sql);
 	
 	@mysqli_query($iConn,$sql) or die(trigger_error(mysqli_error($iConn), E_USER_ERROR));
 	#feedback success or failure of update

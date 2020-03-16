@@ -36,16 +36,15 @@
 //stdClassSnippets.php
 //these are SNIPPETS, not a file to be placed into a running server!
 
-
 //START SNIPPET #2-------------------------------
 
 function buildCountries()
 {//copy country data into an object
-	$sql = "select Value,Country from test_Countries order by Country asc";
+	$sql = "select CountryID,Country from test_Countries order by Country asc";
 	$result = mysqli_query(IDB::conn(),$sql) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
 	while($row = mysqli_fetch_assoc($result))
 	{# pull data from db array
-		$values[] = dbOut($row['Value']);
+		$values[] = dbOut($row['CountryID']);
 		$countries[] = dbOut($row['Country']);
 	}
 	$returnObj = new stdClass;
@@ -56,6 +55,7 @@ function buildCountries()
 
 
 //END SNIPPET #2-----------------------------------
+
 
 
 
@@ -205,4 +205,3 @@ $x = 0; $y = 0; $sel = "";//init stuff
 
 
 //END SNIPPET #6-----------------------------------
-
